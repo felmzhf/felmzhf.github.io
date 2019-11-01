@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^apbcom.top [NC]
+RewriteRule ^(.*)$ https://www.apbcom.top/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^你的服务器ip地址 [NC]
+RewriteRule ^(.*)$ https://www.apbcom.top/$1 [R=301,L]
